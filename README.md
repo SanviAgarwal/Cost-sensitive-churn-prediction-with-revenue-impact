@@ -187,6 +187,6 @@ The key insight is that **different types of wrong predictions have different co
  
 ## 👤 Author
  
-**[Your Name]**  
+**Shanvi Agarwal**  
 📎 [LinkedIn](https://www.linkedin.com/in/shanvi-agarwal-93b38928b/)  
 🐙 [GitHub](https://github.com/SanviAgarwal)
