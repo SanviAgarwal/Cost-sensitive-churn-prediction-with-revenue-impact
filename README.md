@@ -158,10 +158,7 @@ Based on predicted churn probability, customers are split into 3 tiers:
 ---
  
 ## 🖥️ Screenshots
- 
-> *(Add screenshots here after running the project)*  
-> Create a `screenshots/` folder, add your images, then embed them like this:
- 
+  
 ```
 ![Exploration Charts](screenshots/step1_exploration.png)
 ![Business Analysis](screenshots/step4_business_analysis.png)
