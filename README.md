@@ -160,12 +160,11 @@ Based on predicted churn probability, customers are split into 3 tiers:
  
 ## 🖥️ Screenshots
   
-```
 ![Exploration Charts](screenshots/step1_exploration.png)
 ![Business Analysis](screenshots/step4_business_analysis.png)
 ![SHAP Importance](screenshots/step5_global_importance.png)
 ![Streamlit Dashboard](screenshots/streamlit_dashboard.png)
-```
+
  
 ---
  
