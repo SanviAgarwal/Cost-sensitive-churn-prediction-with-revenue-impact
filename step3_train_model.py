@@ -8,7 +8,7 @@
 #   - Shows a confusion matrix for each
 #   - Saves the best model for later steps
 # =============================================================
-
+import sys; sys.stdout.reconfigure(encoding='utf-8')
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -16,7 +16,6 @@ import seaborn as sns
 import pickle
 import warnings
 warnings.filterwarnings("ignore")
-
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import (
     classification_report, confusion_matrix,

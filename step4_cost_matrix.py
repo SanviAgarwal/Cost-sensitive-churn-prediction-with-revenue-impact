@@ -7,7 +7,7 @@
 #   - Shows how much revenue your model saves vs doing nothing
 #   - This is the part that impresses interviewers and managers
 # =============================================================
-
+import sys; sys.stdout.reconfigure(encoding='utf-8')
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt

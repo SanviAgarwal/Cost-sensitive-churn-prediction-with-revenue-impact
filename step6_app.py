@@ -7,11 +7,11 @@
 # What this dashboard does:
 #   - Lets you move a threshold slider
 #   - Instantly shows how revenue impact changes
-#   - Shows the dollar-value confusion matrix
+#   - Shows the Rupee-value confusion matrix
 #   - Shows the 3 intervention tiers (high/medium/low risk)
 #   - Shows SHAP feature importance
 # =============================================================
-
+import sys; sys.stdout.reconfigure(encoding='utf-8')
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -65,7 +65,7 @@ shap_values    = shap_data["shap_values"]
 # --------------------------------------------------
 st.title("📉 Churn Prediction — Business Impact Dashboard")
 st.markdown("""
-This dashboard shows the **real dollar impact** of your ML model.
+This dashboard shows the **real Rupee impact** of your ML model.
 Move the threshold slider to see how business outcomes change.
 """)
 
@@ -173,10 +173,10 @@ col5.metric(
 )
 
 # --------------------------------------------------
-# DOLLAR-VALUE CONFUSION MATRIX
+# Rupee-VALUE CONFUSION MATRIX
 # --------------------------------------------------
 st.divider()
-st.header("💰 Dollar-Value Confusion Matrix")
+st.header("💰 Rupee-Value Confusion Matrix")
 
 left, right = st.columns(2)
 
@@ -184,7 +184,7 @@ with left:
     fig, ax = plt.subplots(figsize=(7, 5))
     
     matrix_vals = np.array([[tn, fp], [fn, tp]])
-    matrix_dollars = np.array([
+    matrix_Rupees = np.array([
         [0, fp * (-offer_input)],
         [fn * (-clv_input), tp * (clv_input - offer_input)]
     ])

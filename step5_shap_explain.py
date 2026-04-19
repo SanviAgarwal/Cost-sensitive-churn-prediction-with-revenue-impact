@@ -11,7 +11,7 @@
 # Plain English: "For this customer, feature X pushed their risk
 # score UP by 0.15, and feature Y pushed it DOWN by 0.08..."
 # =============================================================
-
+import sys; sys.stdout.reconfigure(encoding='utf-8')
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
