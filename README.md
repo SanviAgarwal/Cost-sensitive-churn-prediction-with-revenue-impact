@@ -66,6 +66,7 @@ churn_project/
 │
 ├── data/                        ← Place telco_churn.csv here (not pushed to GitHub)
 ├── outputs/                     ← Auto-generated charts and models (not pushed to GitHub)
+├── screenshots/
 │
 ├── step1_load_explore.py        ← Load data, EDA, 4 exploratory charts
 ├── step2_prepare_data.py        ← Clean data, encode features, train/test split
