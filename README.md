@@ -122,8 +122,6 @@ Missing one churner costs **25x more** than a wasted offer. So the model is tune
  
 | Metric | Value |
 |---|---|
-| Baseline model (Logistic Regression) AUC | `[run step3 to get this]` |
-| Champion model (XGBoost) AUC | `[run step3 to get this]` |
 | Customers who would churn (test set) | 374 |
 | Revenue lost doing nothing | -₹1,87,000 |
 | Revenue impact at default threshold (0.50) | ₹88,860 |
